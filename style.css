@@ -1,0 +1,19 @@
+*{
+  overflow: hidden;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.body{
+  display: grid;
+  grid-template: 80vh / 1fr 3fr;
+}
+
+.qrSection {
+  display: flex;
+  flex-direction: column;
+}
