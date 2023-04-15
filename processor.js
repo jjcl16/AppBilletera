@@ -25,7 +25,7 @@ async function logJSONData(url) {
     credentials: 'include',
     mode: "cors",
 		headers: {
-      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Origin': 'https://jjcl16.github.io',
       'Access-Control-Allow-Credentials': true,
       'Access-Control-Allow-Methods': 'GET',
       'Access-Control-Allow-Headers': 'Content-Type',
